@@ -1,13 +1,21 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+background-color: "#FAFAFA";
+padding: 1rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 1rem;
-background-color: #dee1e7;
-color: white;
-    `
+
+`;
+
+export const HeaderContent = styled.div`
+width: 100%;
+max-width: 1120px;
+margin: 0 auto;
+padding: 0 1.5rem;
+
+`
 
 export const Logo = styled.div`
 img {
@@ -22,7 +30,7 @@ gap: 0.5rem;
 font-size: 1rem;
 `;
 
-export const Cart = styled.div`
+export const Car = styled.div`
 display: flex;
 align-items: center;
 gap: 0.5rem;

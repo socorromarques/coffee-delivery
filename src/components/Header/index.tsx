@@ -4,10 +4,8 @@ export function Header() {
     return (
         <HeaderContainer>
             <img src={logoCoffee} alt="" />
-            <nav>
-                <a href="#">localização</a>
-                <a href="#">carrinho</a>
-            </nav>
+            <button>Carrinho</button>
+            <button>Localização</button>
         </HeaderContainer>
     )
 }
